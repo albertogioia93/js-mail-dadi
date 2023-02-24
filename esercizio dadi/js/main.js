@@ -3,8 +3,8 @@
 
 const dadoGiocatore = Math.floor(Math.random() * 6) + 1;
 const dadoComputer = Math.floor(Math.random() * 6) + 1;
-// console.log(dadoGiocatore);
-// console.log(dadoComputer);
+console.log('numero che è uscito dal tiro del tuo dado: ' + dadoGiocatore);
+console.log('numero che è uscito dal tiro del dado del computer: ' + dadoComputer);
 
 
 if (dadoGiocatore > dadoComputer) {
